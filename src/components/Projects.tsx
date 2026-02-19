@@ -64,9 +64,9 @@ const generalProjects = [
 
 const webProjects = [
   {
-    name: "In Development",
-    description: "In Development.",
-    link: "https://youtube.com",
+    name: "Nomen",
+    description: "This is an app that validates startup names and availability across multiple domains and social media apps.",
+    link: "https://nomen-five.vercel.app/",
   }
 ];
 
