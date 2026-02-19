@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import { Quote } from "lucide-react";
 
-// Edit testimonials here
 const testimonials = [
   {
     name: "Anonymous",

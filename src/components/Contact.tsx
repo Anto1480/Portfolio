@@ -3,10 +3,9 @@ import { Mail, MessageSquare } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { toast } from "@/hooks/use-toast";
 
-// Edit contact information here
 const contactInfo = {
-  discord: "tony#0000",
-  email: "example@email.com",
+  discord: "abc.dab",
+  email: "fymitagroup@gmail.com",
 };
 
 const copyToClipboard = (text: string, type: string) => {

@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import { Github, Mail, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-// Edit social links here
+
 const socialLinks = {
-  github: "https://github.com/tony",
-  discord: "https://discord.com/users/youruserid",
-  email: "tony@example.com",
+  github: "https://github.com/Anto1480",
+  discord: "https://discord.com/users/435794398685691913",
+  email: "fymitagroup@gmail.com",
 };
 
 const Hero = () => {
@@ -37,9 +37,9 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.6 }}
           >
-            A passionate developer with 4 years of experience in Lua and Python, 
-            dedicated to teaching and creating innovative solutions. With 1–2 years 
-            of tutoring experience and multiple successful projects, I help others 
+            A passionate developer with 6 years of experience in Lua and Python, 
+            dedicated to teaching and creating innovative solutions. With 2-3 years 
+            of tutoring experience and several successful and creative projects, I help others 
             learn while building amazing things.
           </motion.p>
 
