@@ -66,7 +66,12 @@ const webProjects = [
   {
     name: "Nomen",
     description: "This is an app that validates startup names and availability across multiple domains and social media apps.",
-    link: "https://nomen-five.vercel.app/",
+    link: "https://nomen-tau.vercel.app",
+  },
+  {
+    name: "Trafiy",
+    description: "This is an app that holds a brief overview of your finances and reminds you when subscriptions are due.",
+    link: "https://trafiy.vercel.app"
   }
 ];
 
