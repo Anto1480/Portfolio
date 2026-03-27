@@ -65,13 +65,18 @@ const generalProjects = [
 const webProjects = [
   {
     name: "Nomen",
-    description: "This is an app that validates startup names and availability across multiple domains and social media apps.",
+    description: "This is an app that validates startup names and availability across multiple domains and social media apps. Helps with productiveness by 60%.",
     link: "https://nomen-tau.vercel.app",
   },
   {
     name: "Trafiy",
     description: "This is an app that holds a brief overview of your finances and reminds you when subscriptions are due.",
     link: "https://trafiy.vercel.app"
+  },
+  {
+    name: "PromptoAI",
+    description: "This is an app that aims at helping with AI usage, explicitly prompt-engineering. Reduces Relative Token Usage for AIs by 40%.",
+    link: "https://promptoai-gray.vercel.app"
   }
 ];
 
@@ -138,7 +143,7 @@ const Projects = () => {
           viewport={{ once: true }}
           variants={containerVariants}
         >
-          <h3 className="text-2xl font-semibold mb-6 text-primary">Roblox Projects</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-primary">Game Development Projects</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {robloxProjects.map((project, index) => (
               <ProjectCard key={index} {...project} />
